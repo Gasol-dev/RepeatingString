@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "This framework repeating input string)"
 
-  spec.homepage     = "https://github.com/Gasol-dev/RepeatingString"
+  spec.homepage     = "https://github.com/Gasol-dev/RepeatingString.git"
   spec.license      = "MIT"
 
   spec.author             = { "Alexander Lezya" => "" }
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Gasol-dev/RepeatingString.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Sources/RepeatingString/**/*.{h,swift}"
+  spec.source_files  = "RepeatingString/Sources/RepeatingString/**/*.{h,swift}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
